@@ -1,0 +1,16 @@
+/* Write your code here: */
+h1,h2{     /* #GROUP COMBINING SELECTOR*/
+    color: blueviolet;
+}
+.box > p{         /* #CHILD COMBINING SELECTOR*/
+    color: firebrick;
+}
+body li{
+    color: blue;
+}
+li.done{
+    color: green;
+}
+body>ul p.done{
+    font-size: 0.5rem;
+}
